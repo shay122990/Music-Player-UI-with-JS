@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Spartan:400,700&display=swap");
 html {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Spartan, sans-serif;
   margin: 0;
   min-height: 100vh;
   background: #c9ced3;
@@ -14,9 +14,9 @@ body {
   font-size: 12px;
 }
 .player-container {
-  height: 500px;
+  height: 600px;
   width: 400px;
-  background-color: #dddfe0;
+  background-color: #5a5a5a;
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
@@ -48,10 +48,25 @@ h3 {
   font-weight: 400;
   margin: 5px 0 0;
 }
+/* Volume-Slider */
+.volume-slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: rgb(243, 240, 240);
+  border-radius: 5px;
+  height: 5px;
+  position: relative;
+  width: 50%;
+  left: 100px;
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+}
 
 /* Progress */
 .progress-container {
-  background: #fff;
+  background: rgb(243, 240, 240);
   border-radius: 5px;
   cursor: pointer;
   margin: 40px 20px;
@@ -63,7 +78,7 @@ h3 {
   background: #242323;
   border-radius: 5px;
   height: 100%;
-  width: 66%;
+  width: 0%;
   transition: width 0.1s linear;
 }
 
@@ -77,24 +92,24 @@ h3 {
 /* Controls */
 .player-controls {
   position: relative;
-  top: -15px;
-  left: 120px;
+  top: 40px;
+  left: 30%;
   width: 200px;
 }
 
 .fas {
   font-size: 30px;
-  color: rgb(129, 129, 129);
+  color: rgb(31, 30, 30);
   margin-right: 30px;
   cursor: pointer;
   user-select: none;
 }
 .fas:hover {
-  filter: brightness(70%);
+  filter: brightness(40%);
 }
 
 .main-button {
-  font-size: 40px;
+  font-size: 50px;
   position: relative;
   top: 3px;
 }

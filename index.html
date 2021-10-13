@@ -10,14 +10,14 @@
     <title>Music Player UI</title>
 </head>
 <body>
-    <div class="player-container">
+    <class class="player-container">
         <!-- Song -->
         <div class="img-container">
-            <img src="media/art1.jpeg" alt="Album Art">
+            <img src="media/song1.jpeg" alt="Album Art">
         </div>
-        <h2 id="title">Mountain High</h2>
-        <h3 id="artist">Jay Levis</h3>
-        <audio src="media/music1.mp3"></audio>
+        <h2 id="title"></h2>
+        <h3 id="artist"></h3>
+        <audio src="media/song1.mp3"></audio>
         <!-- Progress -->
         <div class="progress-container" id="progress-container">
             <div class="progress" id="progress"></div>
@@ -26,12 +26,17 @@
                 <span id="duration">2:06</span>
             </div>
         </div>
+        <!-- Volume Control -->
+        
+            <input class="volume-slider" id="volume-slider" type="range" min="0" max="1" value="1" step="0.1"> 
+        
+        
         <!-- Button Controls -->
         <div class="player-controls">
             <i class="fas fa-backward" id="prev" title="Previous"></i>
             <i class="fas fa-play main-button" id="play" title="Play"></i>
             <i class="fas fa-forward" id="next" title="Next"></i>
-        </div>
+        </div>  
     </div>
 
     <!-- Script -->

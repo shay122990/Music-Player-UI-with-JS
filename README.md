@@ -1,9 +1,15 @@
 # Music Player UI
 
 ## About The Project
+
 This a static music player UI for a phone screen.
 In this project you can see that I'm using a locally stored media, but this is just to showcase the design and also learn JavaScript methods.
-You can apply this to your projects or learn how to achieve this with vanilla JS. 
+You can apply this to your projects or learn how to achieve this with vanilla JS.
+In this project you can learn methods to calculate the song progress in minutes and seconds and display it in the progress bar.
+Of course you have your play/pause buttons, along with next/previous buttons. The songs will play in a loop. You can also add and remove as many songs as you want.
+As soon as the song ends, it will automatically play the next one. You can also click anywhere on the progress bar and it will play from there.
+An added feature is the volume control and you can style it per your preference.
+
 ## Preview
 
 ![Initial view](media/image1.gif)
@@ -18,6 +24,7 @@ You can apply this to your projects or learn how to achieve this with vanilla JS
 - [This keyword](https://www.w3schools.com/js/js_this.asp)
 - [Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 - [Math Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
+- [Royalty Free Music](https://artlist.io/en?p=Google)
 
 ## Installation
 
