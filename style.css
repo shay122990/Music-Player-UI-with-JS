@@ -49,7 +49,7 @@ h3 {
   margin: 5px 0 0;
 }
 /* Volume-Slider */
-.volume-container{
+.volume-container {
   position: relative;
   top: 10%;
 }
@@ -103,13 +103,13 @@ h3 {
 
 .fas {
   font-size: 30px;
-  color: rgb(31, 30, 30);
+  color: rgb(53, 46, 46);
   margin-right: 30px;
   cursor: pointer;
   user-select: none;
 }
 .fas:hover {
-  filter: brightness(40%);
+  filter: brightness(20%);
 }
 
 .main-button {
@@ -119,8 +119,8 @@ h3 {
 }
 
 /* Media Query: iPhone (Vertical) */
-@media screen and (max-width: 372px) {
-  .volume-slider{
+@media screen and (max-width: 375px) {
+  .volume-slider {
     left: 25%;
     top: -20px;
   }

@@ -35,10 +35,10 @@ const songs = [
   },
 ];
 //Volume Control
-function setvolume(){
+function setVolume(){
   music.volume = volumeSlider.value;
 }
-function setvolumeSlider(){
+function setVolumeSlider(){
   volumeSlider.value = music.volume;
 }
 
@@ -139,4 +139,4 @@ nextBtn.addEventListener('click', nextSong);
 music.addEventListener('ended', nextSong);
 music.addEventListener('timeupdate', updateProgressBar);
 progressContainer.addEventListener('click', setProgressBar);
-volumeSlider.addEventListener("mousemove", setvolume);
+volumeSlider.addEventListener("mousemove", setVolume);

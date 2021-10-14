@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This a static music player UI for a phone screen.
+This a static music player UI.
 In this project you can see that I'm using a locally stored media, but this is just to showcase the design and also learn JavaScript methods.
 You can apply this to your projects or learn how to achieve this with vanilla JS.
 In this project you can learn methods to calculate the song progress in minutes and seconds and display it in the progress bar.
