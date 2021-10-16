@@ -52,20 +52,34 @@ h3 {
 .volume-container {
   position: relative;
   top: 10%;
+  margin: 0;
 }
 .volume-slider {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  border: none;
   background-color: rgb(243, 240, 240);
   border-radius: 5px;
   height: 5px;
   position: absolute;
-  left: 25%;
-  width: 50%;
+  left: 35%;
+  width: 30%;
   outline: none;
   cursor: pointer;
   box-shadow: 0 5px 30px 2px rgba(201, 103, 103, 0.5);
+}
+.volume-slider::-webkit-slider-thumb{
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 18px; 
+  height: 20px; 
+  border-radius: 35%;
+  background: #585858; 
+  cursor: pointer;
+}
+.volume-slider::-webkit-slider-thumb:hover{
+  background-color: rgb(53, 46, 46);
 }
 
 /* Progress */
@@ -117,12 +131,28 @@ h3 {
   position: relative;
   top: 3px;
 }
+/* Volume Icons */
+.fa-volume-off {
+  position: relative;
+  bottom: 7px;
+  left: 28%;
+  font-size: 23px;
+  color: #585858;
+}
+.fa-volume-up {
+  position: relative;
+  bottom: 7px;
+  left: 58%;
+  font-size: 23px;
+  color: #585858;
+}
 
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 375px) {
   .volume-slider {
-    left: 25%;
-    top: -20px;
+    margin: 0;
+    left: 34%;
+    top: -16px;
   }
   .player-container {
     width: 98vw;
@@ -143,5 +173,17 @@ h3 {
   .player-controls {
     top: -10px;
     left: 100px;
+  }
+  .fa-volume-off {
+    position: relative;
+    bottom: 24px;
+    left: 28%;
+    font-size: 20px;
+  }
+  .fa-volume-up {
+    position: relative;
+    bottom: 24px;
+    left: 56%;
+    font-size: 20px;
   }
 }
